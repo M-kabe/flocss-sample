@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*
+ * object/project/_news.scss
+ */
+.p-news {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #dfdfdf;
+	background-color: #ffffff;
+}
+
+.p-news-title {
+	margin-bottom: 8px;
+}
+
+.p-news-lists {
+
+}
+.p-news-lists__item {
+	margin-bottom: 10px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	.date {
+		display: inline-block;
+		margin-right: 10px;
+	}
+}

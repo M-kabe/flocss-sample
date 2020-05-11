@@ -1,0 +1,54 @@
+@charset "utf-8";
+/*
+ * object/component/_button.scss
+ */
+.c-btn {
+	display: inline-block;
+	padding: 5px 15px 4px;
+	border-radius: 2px;
+	background-color: #cccccc;
+	color: #ffffff;
+	@include fs16;
+	&:hover {
+		opacity: .7;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		transition: all 0.5s;
+	}
+}
+
+.c-btn--signup {
+	position: absolute;
+	top: 11px;
+	right: 15px;
+	padding: 9px 15px 7px;
+	background-color: #128fdc;
+}
+
+.c-btn--submit {
+	background-color: #d9534f;
+}
+
+.c-btn--official {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	padding: 10px 0;
+	background-color: #d9534f;
+}
+
+.c-btn--close {
+	background-color: #a9a9a9;
+}
+
+.c-btn--search {
+	display: block;
+	width: 250px;
+	padding: 10px 0;
+	background-color: #d9534f;
+}
+
+.c-btn--hikaku {
+	width: 100%;
+	@include fs12;
+}
