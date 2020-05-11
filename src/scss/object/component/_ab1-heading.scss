@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*
+ * object/component/_heading.scss
+ */
+
+.p-heading--sub--ab1 {
+	padding-top: 3px;
+	padding-left: 8px;
+	border-left: 5px solid #d9534f;
+	@include fs20;
+	line-height: 1;
+}
